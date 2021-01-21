@@ -1,0 +1,54 @@
+:root {
+    --main-color: #eb6457;
+}
+
+#sidebar{
+    height: 100vh;
+    width: 22vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-x: hidden;
+
+    background-color: var(--main-color);
+    color: whitesmoke;
+    padding: 0px 15px;
+
+    box-shadow: -1px 0px 3px dimgrey inset;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: "raleway";
+    font-weight: 300;
+}
+
+#sidebar ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 0px;
+}
+
+#sidebar li {
+    padding: 10px 0px 10px 40px;
+    width: 100%;
+    background-clip: border-box;
+}
+
+#sidebar li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#sidebar a {
+    display: block;
+    font-family: "raleway";
+    font-weight: 100;
+    font-size:   2rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#sidebar a:hover {
+    color: lightgrey;
+}
